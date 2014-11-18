@@ -24,9 +24,8 @@ public class Employee {
    public void setSalary(double salary) {
       mySalary = salary;
    }
-
+   //A la hora de Imprimirlo saldra el Name: getName() coge el nombre y el getSalary() coge el salrio.
    public String toString() {
-      return "Name: " + getName() +
-             ", Salary: " + getSalary();
+      return "Name: " + getName() + ", Salary: " + getSalary();
    }
 }
