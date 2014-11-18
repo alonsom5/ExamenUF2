@@ -1,5 +1,5 @@
 public class Employee {
-
+   //variables
    private String myName;
    private double mySalary;
    
